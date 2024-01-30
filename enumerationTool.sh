@@ -65,6 +65,11 @@ go install -u github.com/tomnomnom/assetfinder
 echo "done"
 
 
+echo "Installing Amass"
+go install -v github.com/owasp-amass/amass/v4/...@master
+echo "done"
+
+
 echo " Installing anew by tomnomnom " 
 go install -v github.com/tomnomnom/anew@latest
 echo "done"
