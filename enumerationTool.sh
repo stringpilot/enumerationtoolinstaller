@@ -61,7 +61,7 @@ fi
 
 
 echo "Installing AssetFinder"
-go install -u github.com/tomnomnom/assetfinder
+go install github.com/tomnomnom/assetfinder@latest
 echo "done"
 
 
